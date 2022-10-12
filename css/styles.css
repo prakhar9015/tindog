@@ -1,0 +1,188 @@
+/* ################## Refactoring   ############################ */
+
+
+body {
+  font-family: sans-serif "Montserrat-bold";
+  text-align: center;
+}
+
+#title {
+  text-align: left;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+h1 {
+  line-height: 1.5;
+  font-weight: bolder;
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 2.7rem;
+  line-height: 2;
+}
+
+h3 {
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* navigation bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+/* Download Button */
+.download-button {
+  margin: 5% 3% 5% 0
+}
+
+/* Title image */
+.title-image {
+  width: 57%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* icons-class */
+#features {
+  padding: 8% 15%;
+  position: relative;
+}
+
+.feature-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* testimonial */
+
+#testimonials {
+  padding: 5% 5%;
+  background-color: #ef8172;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 1.5rem;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.press-logo {
+  width: 14%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing */
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 3%;
+}
+
+@media (max-width: 1150px){
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    width: 50%;
+    position: static;
+     transform: rotate(0); /*to rotate back to straight use 0 */
+  }
+}
+
+/* CAll to action */
+
+#cta {
+   padding: 7% 15%;
+}
+
+.cta-heading {
+  font-weight: bold;
+  font-size: 3.5rem;
+}
+
+/* FOOTER SECTION */
+
+#footer {
+  padding: 4% 10%;
+}
+
+.tweet :hover {
+      color: #00adb5;
+}
+
+.insta :hover {
+      color: #e11d74;
+}
+
+.linkd :hover {
+      color: #04009a;
+}
+
+.mail :hover {
+      color: #0dcaf0;
+}
+
+.info-icon {
+  color: black;
+  margin: 20px 10px;
+}
+
+.anchor-icon :hover{
+    transform:scale(1.8);
